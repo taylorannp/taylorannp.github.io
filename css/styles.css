@@ -1,0 +1,147 @@
+body {
+	background-color: #f6f6f6;
+}
+
+h1 {
+	font-size: 40px;
+	margin: 20px 0;
+	width: 100%;
+}
+/*h1:before {
+	content: "hey- ";
+	width: 50px;
+	height: 50px;
+	display: block;
+	background-color: red;
+}
+h1:after {
+	content: " -ya";
+}*/
+h2 {
+	font-size: 26px;
+	margin: 20px 0;
+	float: right;
+}
+p {
+	font-size: 18px;
+	margin-bottom: 18px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+header {
+	background-color: rgb(183, 206, 226);
+}
+header img {
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 10px;
+}
+nav li {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 10px 0;
+
+
+}
+
+
+#hero {
+	width: 100%;
+	height: 250px;
+	background-color: blue;
+	background-image: url("../../images/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
+article {
+	position: relative;
+	padding: 20px 0 50px;
+}
+article img {
+	width: 20%;
+	display: block;
+	border-radius: 50%;
+	border: 10px solid #dddddd;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 9;
+}
+#letter {
+	width: 80%;
+	float: right;
+	background-color: #ffffff;
+	padding: 40px 20px;
+	position: relative;
+	z-index: 10;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#letter:before {
+	content: " ";
+	display: block;
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	top: -100px;
+	left: 0;
+	background-image: url("../../images/mail.png");
+	background-repeat: repeat-x;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+
+section{
+
+	padding: 20px 0 50px; 
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color:yellow;
+}
+section img{ 
+	float: right;
+	width:200px;
+	height:100px;
+
+}
+.cf{
+	*zoom: 1;
+
+}
+
+*, *:before, *:after
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+
+#letter-content {
+	-webkit-column-count:2;
+	-moz-column-count: 2;
+	-column-count: 2;
+ 
+	 
+}
+
+ }
+ #dropdown li { 
+ 	display: block;
+ 	width:100%; 
+ 	text-align: left;}
+ 
+
+
+

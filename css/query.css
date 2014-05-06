@@ -1,0 +1,71 @@
+body {
+	background-color: lightgrey;
+	padding: 20px 100px;
+}
+
+header {
+	background-color: grey;
+	padding: 10px;
+}
+header ul{
+	float: right;
+	text-align: right;
+}
+
+article {
+	width: 80%;
+	float: left;
+
+}
+article p {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	-column-count: 3;
+}
+
+article {
+	width: 80%;
+	float: left;
+}
+
+aside{ 
+width: 20%;
+float: right;
+
+}
+footer{
+	color: white;
+	background-color: black;
+
+}
+
+
+@media (max-width: 768px){
+	article p {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		-column-count: 2;
+	}
+}
+
+@media (max-width: 480px){
+	body{
+		padding: 5px 10px;
+	}
+	article p{
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		-column-count: 1;
+	
+	}
+	aside{
+	width: 100%
+	}
+}
+
+
+
+
+
+
+
